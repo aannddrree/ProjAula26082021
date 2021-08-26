@@ -1,4 +1,6 @@
 public class ClasseExMetodo {
+
+
     public static void main(String[] args) {
 
        /*
@@ -25,9 +27,15 @@ public class ClasseExMetodo {
         System.out.println(somar(6,7));
         System.out.println(somar(7,9));
 
+        imprimir();
+
     }
 
     public static String somar(int a, int b){
         return "Resultado: " + (a + b);
+    }
+
+    public static void imprimir(){
+        System.out.println("Papini");
     }
 }
