@@ -1,6 +1,5 @@
 public class ClasseExMetodo {
 
-
     public static void main(String[] args) {
 
        /*
@@ -33,6 +32,10 @@ public class ClasseExMetodo {
 
     public static String somar(int a, int b){
         return "Resultado: " + (a + b);
+    }
+
+    public static int somar2(int a, int b){
+        return a + b;
     }
 
     public static void imprimir(){
